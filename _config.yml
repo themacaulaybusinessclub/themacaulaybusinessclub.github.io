@@ -1,0 +1,65 @@
+# Site settings
+title: MBC Site
+email: benyaminidaniella@gmail.com 
+description: "A boilerplate set up to create a bilingual Jekyll website."
+keywords:
+- Jekyll
+
+# URL
+url: "https://themacaulaybuisnessclub.github.io/site"
+baseurl: ""
+
+# Google tracking (Analytics and Google Tag Manager)
+# google_tag_manager: GTM-XXXXXX
+# google_analytics: UA-XXXXXXX-X
+
+# SEO
+#twitter: wiredcraft
+#facebook: https://www.facebook.com/teamwiredcraft
+logo: /assets/logo.png
+image: /assets/logo.png
+social:
+  - https://www.facebook.com/teamwiredcraft
+  - https://twitter.com/wiredcraft
+  - https://www.linkedin.com/company/wiredcraft
+  - https://github.com/wiredcraft
+  - https://weibo.com/1970385015/
+
+# Sitemap (see sitemap.xml)
+sitemap:
+  changefreq: weekly
+
+# Build settings
+exclude: ['README.md', 'Makefile']
+
+# Collections
+permalink: /:categories/:title/
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      class: post
+  - scope:
+      path: ""
+      type: drafts
+    values:
+      layout: post
+      class: post
+
+# Plugins
+plugins:
+- jekyll-sitemap
+
+# Multiligual
+lang:
+  - en
+  - fr
+  - zh
+
+# Version (helps with force reloading assets)
+version: sparkle
+
+# Jekyll+ (not useful if you're running on GitHub pages)
+# jekyllplus: Wiredcraft/jekyll-basics/master
