@@ -1,4 +1,0 @@
-@mixin font-size($size: $regular) {
-  font-size: $size + px;
-  font-size: ($size/10) + rem;
-}
