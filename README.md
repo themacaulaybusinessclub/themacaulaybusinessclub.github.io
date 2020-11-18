@@ -1,3 +1,20 @@
+# Our Implementation
+
+We hand over a lot of the backend dirty work to Github Pages. Github Pages has built in continuous development. All modified Jekyll files are immediately built by Github and hosted for us. We also use Netlify as a CMS to handle posts and updates. Our solution is a little hacky, but it works and is free. Esseentially, there is a dummy copy of this site hosted at mbcsite.netlify.com. /admin here updates that site which is then copied over to the main repository. The credentials are linked through Github so as long as one has the Github account username and password, everything can be accessed and maintained.
+
+Authorship works as follows. To edit and add posts, one needs to be a contributor on the repository. So, in the future, when we want to allow people to add posts to the blog, we need to first add their github account or allow them to sign in with the master (not recommended). Once they are given access, they can then login at /admin and create/edit posts.
+
+### TODO:
+
+We need to finish configuring the boilerplate. 
+1. We should edit the .yml files to reflect the layout and info that we want.
+2. We need to update the html templates in `_layouts/` to our liking.
+3. We need to add a custom domain in the repository settings and point DNS records to Github pages [documentation](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain). 
+
+In the future, we should probably add the following:
+1. A way to manage authorship (as Sanford mentioned). There is probably a way to do this already in Jekyll, but we should research to find a neat solution.
+2. A way to edit the master layout pages in the Netlify CMS. Ditto from above.
+
 # WhatATheme
 **WhatATheme** is a customizable Jekyll Portfolio theme which supports blogging. You can use this theme in order to create an elegant, fully responsive portfolio.
 
