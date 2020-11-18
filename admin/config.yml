@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: themacaulaybusinessclub/you.github.io
+  repo: themacaulaybusinessclub/themacaulaybusinessclub.github.io
   branch: main
   site_domain: mbcsite.netlify.com
 
