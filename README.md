@@ -1,4 +1,7 @@
-# Our Implementation
+# The Macaulay Business Club Site
+
+
+## Our Implementation
 
 We hand over a lot of the backend dirty work to Github Pages. Github Pages has built in continuous development. All modified Jekyll files are immediately built by Github and hosted for us. We also use Netlify as a CMS to handle posts and updates. Our solution is a little hacky, but it works and is free. Esseentially, there is a dummy copy of this site hosted at mbcsite.netlify.com. /admin here updates that site which is then copied over to the main repository. The credentials are linked through Github so as long as one has the Github account username and password, everything can be accessed and maintained.
 
@@ -15,7 +18,7 @@ In the future, we should probably add the following:
 1. A way to manage authorship (as Sanford mentioned). There is probably a way to do this already in Jekyll, but we should research to find a neat solution.
 2. A way to edit the master layout pages in the Netlify CMS. Ditto from above. Probably by adding a new "collection" object and adding markdown.
 
-# WhatATheme
+## WhatATheme
 **WhatATheme** is a customizable Jekyll Portfolio theme which supports blogging. You can use this theme in order to create an elegant, fully responsive portfolio.
 
 #### You can checkout the [**Demo Here**](https://thedevslot.github.io/WhatATheme/) :boom:
