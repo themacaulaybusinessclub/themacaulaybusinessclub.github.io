@@ -13,7 +13,7 @@ We need to finish configuring the boilerplate.
 
 In the future, we should probably add the following:
 1. A way to manage authorship (as Sanford mentioned). There is probably a way to do this already in Jekyll, but we should research to find a neat solution.
-2. A way to edit the master layout pages in the Netlify CMS. Ditto from above.
+2. A way to edit the master layout pages in the Netlify CMS. Ditto from above. Probably by adding a new "collection" object and adding markdown.
 
 # WhatATheme
 **WhatATheme** is a customizable Jekyll Portfolio theme which supports blogging. You can use this theme in order to create an elegant, fully responsive portfolio.
