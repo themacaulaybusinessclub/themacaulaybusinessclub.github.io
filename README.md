@@ -13,6 +13,7 @@ We need to finish configuring the boilerplate.
 1. We should edit the .yml files to reflect the layout and info that we want.
 2. We need to update the html templates in `_layouts/` to our liking.
 3. We need to add a custom domain in the repository settings and point DNS records to Github pages [documentation](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain). 
+4. Figure out the contact page. Do we want a form that updates a spreadsheet? An email? 
 
 In the future, we should probably add the following:
 1. A way to manage authorship (as Sanford mentioned). There is probably a way to do this already in Jekyll, but we should research to find a neat solution.
