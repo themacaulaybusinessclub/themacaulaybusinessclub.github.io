@@ -1,5 +1,6 @@
 ---
 title: Hello, World
+author: Shaun
 layout: post
 post-image: /assets/images/logo.png
 description: Lorem ipsum post
