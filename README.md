@@ -3,9 +3,9 @@
 
 ## Our Implementation
 
-We hand over a lot of the backend dirty work to Github Pages. Github Pages has built in continuous development. All modified Jekyll files are immediately built by Github and hosted for us. We also use Netlify as a CMS to handle posts and updates. Our solution is a little hacky, but it works and is free. Esseentially, there is a dummy copy of this site hosted at mbcsite.netlify.com. /admin here updates that site which is then copied over to the main repository. The credentials are linked through Github so as long as one has the Github account username and password, everything can be accessed and maintained.
+We hand over a lot of the backend dirty work to Github Pages. Github Pages has built-in continuous development. All modified Jekyll files are immediately built by Github and hosted for us. We also use Netlify as a CMS to handle posts and updates. Our solution is a little hacky, but it works and is free. Essentially, there is a dummy copy of this site hosted at mbcsite.netlify.com. /admin here updates that site which is then copied over to the main repository. The credentials are linked through Github so as long as one has the Github account username and password, everything can be accessed and maintained.
 
-Authorship works as follows. To edit and add posts, one needs to be a contributor on the repository. So, in the future, when we want to allow people to add posts to the blog, we need to first add their github account or allow them to sign in with the master (not recommended). Once they are given access, they can then login at /admin and create/edit posts.
+Authorship works as follows. To edit and add posts, one needs to be a contributor to the repository. So, in the future, when we want to allow people to add posts to the blog, we need to first add their GitHub account or allow them to sign in with the master (not recommended). Once they are given access, they can then log in at /admin and create/edit posts.
 
 ### TODO:
 
