@@ -1,8 +1,8 @@
 ---
-title: Sample Blog Post Title
-author: Blog Author
+title: "Sample Post 2 "
+author: "creator "
 layout: post
 post-image: /assets/images/logo.png
-description: This is an example description.
+description: n/a
 ---
-This is an example of a blog post. Interesting information belongs here.
+this is an example
